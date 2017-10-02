@@ -45,10 +45,6 @@
       return;
     }
 
-    if (!self.jsdom) {
-      return;
-    }
-
     if (!self.async) {
       updateStat(fs.statSync(self.path));
     } else {
